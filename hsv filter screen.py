@@ -5,7 +5,6 @@ import numpy as np
 
 sct = mss()
 
-
 ortakare = 600
 boyutlar = sct.monitors[1]
 boyutlar['left'] = int((boyutlar['width'] / 2) - (ortakare / 2))
@@ -29,16 +28,6 @@ cv2.createTrackbar('V Higher','marking',255,255,nothing)
 
 
 while(1):
-
-
-    # img = np.array(sct.grab(boyutlar))
-
-
-
-    # _,img = np.array(sct.grab(boyutlar))
-    # img = cv2.flip(img,1)
-
-
     img = np.array(sct.grab(boyutlar))
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
