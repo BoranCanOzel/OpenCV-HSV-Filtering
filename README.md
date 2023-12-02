@@ -5,7 +5,7 @@ This repository contains two Python scripts demonstrating basic image processing
 
 ## Script Descriptions
 
-### 1. Screen Capture and Masking (`script1.py`)
+### 1. Screen Capture and Masking (`hsv filter screen.py`)
 - This script captures a specific area of the screen and applies color-based masking to detect objects of a specified color.
 - Features include:
   - Real-time screen capture.
@@ -14,7 +14,7 @@ This repository contains two Python scripts demonstrating basic image processing
   - Morphological operations to enhance the mask.
   - Bitwise operations to isolate the detected color.
 
-### 2. Webcam Capture and Masking (`script2.py`)
+### 2. Webcam Capture and Masking (`hsv filter camera.py`)
 - Similar to the first script, this one uses a webcam feed instead of screen capture.
 - It also demonstrates real-time color-based object detection with adjustable parameters.
 - Features include:
@@ -32,7 +32,7 @@ This repository contains two Python scripts demonstrating basic image processing
 ## Usage
 
 1. **Clone the Repository:**
-git clone https://github.com/[YourUsername]/[YourRepoName].git
+git clone https://github.com/BoranCanOzel/OpenCV-HSV-Filtering.git
 2. **Install Dependencies:**
 3. pip install opencv-python numpy mss
 
@@ -40,11 +40,11 @@ git clone https://github.com/[YourUsername]/[YourRepoName].git
 3. **Run the Scripts:**
 - For screen capture and masking:
   ```
-  python script1.py
+  python hsv filter screen.py
   ```
 - For webcam capture and masking:
   ```
-  python script2.py
+  python hsv filter camera.py
   ```
 
 4. **Adjust Parameters:**
